@@ -1,0 +1,9 @@
+{
+  "server":{
+    "port": 8081
+  },
+    "files":
+  {
+    "dir": "C:/Users/fdavis/code/cyberdeer.xyz/public/files/"
+  }
+}

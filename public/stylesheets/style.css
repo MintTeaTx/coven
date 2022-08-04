@@ -1,0 +1,413 @@
+
+    @keyframes flicker {
+      0% {
+        opacity: 0.27861;
+      }
+
+      5% {
+        opacity: 0.34769;
+      }
+
+      10% {
+        opacity: 0.23604;
+      }
+
+      15% {
+        opacity: 0.90626;
+      }
+
+      20% {
+        opacity: 0.18128;
+      }
+
+      25% {
+        opacity: 0.83891;
+      }
+
+      30% {
+        opacity: 0.65583;
+      }
+
+      35% {
+        opacity: 0.67807;
+      }
+
+      40% {
+        opacity: 0.26559;
+      }
+
+      45% {
+        opacity: 0.84693;
+      }
+
+      50% {
+        opacity: 0.96019;
+      }
+
+      55% {
+        opacity: 0.08594;
+      }
+
+      60% {
+        opacity: 0.20313;
+      }
+
+      65% {
+        opacity: 0.71988;
+      }
+
+      70% {
+        opacity: 0.53455;
+      }
+
+      75% {
+        opacity: 0.37288;
+      }
+
+      80% {
+        opacity: 0.71428;
+      }
+
+      85% {
+        opacity: 0.70419;
+      }
+
+      90% {
+        opacity: 0.7003;
+      }
+
+      95% {
+        opacity: 0.36108;
+      }
+
+      100% {
+        opacity: 0.24387;
+      }
+    }
+    @keyframes textShadow {
+      0% {
+        text-shadow: 0.4389924193300864px 0 1px rgba(0, 30, 255, 0.5), -0.4389924193300864px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      5% {
+        text-shadow: 2.7928974010788217px 0 1px rgba(0, 30, 255, 0.5), -2.7928974010788217px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      10% {
+        text-shadow: 0.02956275843481219px 0 1px rgba(0, 30, 255, 0.5), -0.02956275843481219px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      15% {
+        text-shadow: 0.40218538552878136px 0 1px rgba(0, 30, 255, 0.5), -0.40218538552878136px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      20% {
+        text-shadow: 3.4794037899852017px 0 1px rgba(0, 30, 255, 0.5), -3.4794037899852017px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      25% {
+        text-shadow: 1.6125630401149584px 0 1px rgba(0, 30, 255, 0.5), -1.6125630401149584px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      30% {
+        text-shadow: 0.7015590085143956px 0 1px rgba(0, 30, 255, 0.5), -0.7015590085143956px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      35% {
+        text-shadow: 3.896914047650351px 0 1px rgba(0, 30, 255, 0.5), -3.896914047650351px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      40% {
+        text-shadow: 3.870905614848819px 0 1px rgba(0, 30, 255, 0.5), -3.870905614848819px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      45% {
+        text-shadow: 2.231056963361899px 0 1px rgba(0, 30, 255, 0.5), -2.231056963361899px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      50% {
+        text-shadow: 0.08084290417898504px 0 1px rgba(0, 30, 255, 0.5), -0.08084290417898504px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      55% {
+        text-shadow: 2.3758461067427543px 0 1px rgba(0, 30, 255, 0.5), -2.3758461067427543px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      60% {
+        text-shadow: 2.202193051050636px 0 1px rgba(0, 30, 255, 0.5), -2.202193051050636px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      65% {
+        text-shadow: 2.8638780614874975px 0 1px rgba(0, 30, 255, 0.5), -2.8638780614874975px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      70% {
+        text-shadow: 0.48874025155497314px 0 1px rgba(0, 30, 255, 0.5), -0.48874025155497314px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      75% {
+        text-shadow: 1.8948491305757957px 0 1px rgba(0, 30, 255, 0.5), -1.8948491305757957px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      80% {
+        text-shadow: 0.0833037308038857px 0 1px rgba(0, 30, 255, 0.5), -0.0833037308038857px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      85% {
+        text-shadow: 0.09769827255241735px 0 1px rgba(0, 30, 255, 0.5), -0.09769827255241735px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      90% {
+        text-shadow: 3.443339761481782px 0 1px rgba(0, 30, 255, 0.5), -3.443339761481782px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      95% {
+        text-shadow: 2.1841838852799786px 0 1px rgba(0, 30, 255, 0.5), -2.1841838852799786px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+
+      100% {
+        text-shadow: 2.6208764473832513px 0 1px rgba(0, 30, 255, 0.5), -2.6208764473832513px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+      }
+    }
+    @keyframes blinker {
+      from {
+        color: white;
+      }
+
+      50% {
+        color: rgba(0, 0, 0, 0);
+      }
+    }
+
+    body {
+      background-color: black;
+      background-image: radial-gradient(rgba(230,200,250,.1), black 120%);
+
+      height: 100vh;
+      color: white;
+      font-family: "Lucida Console", monospace;
+      animation: textShadow 0.1s infinite;
+      white-space: nowrap;
+
+    }
+
+    a {
+      color: white;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: repeating-linear-gradient(0deg, rgba(18, 16, 16, 0), rgba(0, 0, 0, 0.25)),
+        repeating-linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+      background-size: 100% 2px, 3px 100%;
+      pointer-events: none;
+      z-index: 2;
+
+    }
+
+    body::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(18, 16, 16, 0.1);
+      opacity: 0;
+      z-index: 2;
+      pointer-events: none;
+      animation: flicker 0.15s infinite;
+    }
+
+    div {
+      white-space: nowrap;
+    }
+
+    .terminal {
+      border: 1px solid rgba(230,200,250,.75);
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .terminal>img {
+      position: relative;
+      width: 200px;
+      z-index: 3;
+    }
+
+    .container {
+      overflow:hidden;
+    }
+
+    .terminal.head {
+      margin-top: 50px;
+
+      padding: 10px;
+      justify-content: space-between;
+      background: rgba(230,200,250,.75);
+      overflow: hidden;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    .terminal.body {
+
+      padding: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      overflow: scroll;
+      height: 80vh;
+    }
+
+    .entry {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      justify-content: space-between;
+
+    }
+    .entry:hover > a{
+      background-color: rgba(230,200,250,.75);
+    }
+
+    .blink {
+      animation: blinker 1s infinite;
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 999; /* Sit on top */
+
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    }
+    .modal-image {
+      margin: auto;
+      display: block;
+
+      max-width:90vw;
+    }
+    .modal-card {
+      margin: 15% auto;
+      display: block;
+      max-width:  60vw;
+
+    }
+    .modal-header{
+      padding: 10px;
+      justify-content: space-between;
+      background: rgba(230,200,250,.75);
+      border: 1px solid rgba(230,200,250,.75);
+      overflow: hidden;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    .modal-body{
+      border: 1px solid rgba(230,200,250,.75);
+      padding: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      overflow-y: scroll;
+    }
+    .modal-body > * {
+      clear:both;
+    }
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    #messageForm {
+       position: sticky;
+       bottom: 0;
+       width:100%;
+       min-width: 100%!important;
+       max-width:100%;
+       overflow-x:visible;
+     }
+     #messageInput {
+       background: rgba(0, 0, 0, 0);
+       font-family: "Lucida Console", monospace;
+       font-size: 16px;
+       color: white;
+       border: none !important;
+       border-color: transparent !important;
+       padding: 0px;
+       width: calc(100% - 75px);
+     }
+     #messageInput:focus-visible {
+       border: none !important;
+       border-color: transparent !important;
+       outline: none;
+     }
+
+     .menuInput, .menuLabel{
+       display: flex;
+       flex-direction: column;
+     }
+     .menuInput{
+       background: rgba(0, 0, 0, 0);
+       font-family: "Lucida Console", monospace;
+       font-size: 16px;
+       color: white;
+       border: solid;
+       border-color: rgba(230,200,250,.75);
+       padding: 0px;
+     }
+
+     button {
+       background: rgba(0, 0, 0, 0);
+       border-color: rgba(230,200,250,.75);
+       border-style: solid;
+       border-radius: 5px;
+       color: rgba(230,200,250,.75);
+       z-index: 8;
+     }
+     button:hover {
+       background: rgba(230,200,250,.75);
+     }
+     #sendMessage {
+       right:0;
+       position: relative;
+      width: 50px;
+     }
+
+
+
+    div::-webkit-scrollbar {
+      height: 2px;
+      width: 2px;
+      /* width of the entire scrollbar */
+    }
+
+    div::-webkit-scrollbar-track {
+      background: black;
+      border:4px;
+      /* color of the tracking area */
+    }
+
+    div::-webkit-scrollbar-thumb {
+      background-color: rgba(230,200,250,.75);
+      /* color of the scroll thumb */
+      border-radius: 5px;
+      /* roundness of the scroll thumb */
+      border: 3px solid rgba(230,200,250,.75);
+      /* creates padding around scroll thumb */
+    }
