@@ -14,7 +14,7 @@ let userMap = [];
 app.set('view engine', 'ejs');
 app.use('/public', express.static(__dirname + '/public'));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.render('templates/template', {
     filename: "/chat"
   });
@@ -70,7 +70,7 @@ io.on('connection', (socket) => {
       userID: socket.userID
     });
 
-    socket.on('joinChannel', ()=> {
+    socket.on('joinChannel', (json)=> {
 
     });
 
@@ -98,7 +98,7 @@ io.on('connection', (socket) => {
       });
 
       //on client changinge user
-      socket.on('changeUsername', (msg) => {
+    socket.on('changeUsername', (msg) => {
         if (msg.length < 3) {
           sendError(socket, "username must be at least three long");
           return;

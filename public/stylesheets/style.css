@@ -266,6 +266,7 @@
     .menu-container {
       background: rgba(230,200,250,.25);
     }
+
     .menu-container > * {
       color: black;
     }
