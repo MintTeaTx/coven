@@ -1,25 +1,31 @@
 
 <script src="/public/js/socket.io.min.js"></script>
 <script src="/public/js/coven.js"></script>
-<div id="menuContainer">
-  >
-  <button id="setUser"> Set Nickname! </button>
-  <button type="button" name="button">uhhhh</button>
-  <button type="button" name="button">fuck</button>
+<div id="menuContainer" class="menu-container">
+
+  <button id="profileEdit" onclick="showModal('Update Profile', 'userProfileForm');">Profile</button>
+  <button id="listUsers" onclick="showUserList();">Online Users</button>
+  <button id="logout" onclick="logout();">Logout</button>
 </div>
-<div id="messageList"></div>
-<form id="form" class=".container-fluid" onsubmit="event.preventDefault(); return sendMessage();">>
-  <input id="messageInput"  autocomplete="off"/> <button id="sendMessage" name="sendMessage">Send</button>
+<div id="tabContainer" class="menu-container">
+  <button id="generalChat" value="general" class="channel-button active">general</button>
+  <button id="general2Chat" value="general2" class="channel-button">general2</button>
+</div>
+<div id="messageContainer">
+  <div id="general-messages" class="message-list active">general 1</div>
+  <div id="general2-messages" class="message-list"> general 2</div>
+</div>
+<form id="form" class=".container-fluid" onsubmit="event.preventDefault();">>
+  <input id="messageInput"  autocomplete="off"/> <button onclick="sendMessage();">Send</button>
 </form>
-<div id="userModal" class="modal">
-  <div id="userModalCard" class="modal-card">
+<div id="modal" class="modal">
+  <div id="modalCard" class="modal-card">
     <div class="modal-header">
-        <div style="float:left; padding-right:25px;" id="return" name="return"><==</div>
-        <div style="float:left; overflow:hidden;">Update Profile</div>
-        <div style="float:right;" class=".close">X</div>
+        <div style="float:left; overflow:hidden;" id="modalTitle"></div>
+        <div style="float:right;" id="close">X</div>
     </div>
-    <div id="userModalBody" class="modal-body">
-      <form onsubmit="event.preventDefault(); return changeUsername();">
+    <div id="modalBody" class="modal-body">
+      <form id="userProfileForm" onsubmit="event.preventDefault();" class="modal-content">
         <div>
           <label for="usernameField" class="menuLabel">New Display Name</label>
           <input id="usernameField" class="menuInput"/>
@@ -28,20 +34,14 @@
           <label for="colorField" class="menuLabel">New Color</label>
           <input id="colorField" class="menuInput"/>
         </div>
-        <button>Submit</button>
+        <button id="submitProfile" onclick="profileSubmit();">Submit</button>
         </form>
-    </div>
-  </div>
-</div>
-<div id="onlineModal" class="modal">
-  <div class="modal-card">
-    <div class="modal-header">
-        <div style="float:left; padding-right:25px;" id="return" name="return"><==</div>
-        <div style="float:left; overflow:hidden;">Update Profile</div>
-        <div style="float:right;" class=".close">X</div>
-    </div>
-    <div class="modal-body">
-      <div id="userList"></div>
+        <div id="userListCard" class="modal-content">
+            <div class="entry">Users Online:</div>
+            <div id="userList">
+
+            </div>
+        </div>
     </div>
   </div>
 </div>
